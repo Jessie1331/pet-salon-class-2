@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/mystyle.css">
+    <title>Pet Solon Prjects</title>
+    <link rel="stylesheet" href="./style/mystyle.css">
+</head>
+<body>
+
+<header class="site-header">
+    
+</header>
+<nav class="nav-bar">
+    <h2>Paws and Claws Salon</h2>
+<ul>
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="sercices.html">Services</a>
+      <ul>
+       <li><a href="services.html"></a>Grooming</li>
+       <li><a href="services.html"></a>vaccine</li>
+       <li><a href="services.html"></a>Check-up</li>
+       <li><a href="services.html"></a>Wing Triming</li>
+       <li><a href="services.html"></a>Ear Cleaning</li>
+       <li><a href="services.html"></a>Obediance Trainning Class</li>
+    
+      </ul>
+    </li>
+      <li><a href="contact.html">About</a>
+      <ul>
+        <li><a href="contact.html"></a>History</li>
+        <li><a href="contact.html"></a>Contact Us</li>
+     
+     </ul>
+    </li>
+    
+      <li><a href="register.html">Register</a>
+      <ul>
+        <li><a href="register.html"></a>Make Appointment</li>
+        <li><a href="register.html"></a>Register</li>
+
+
+      </ul>       
+     </li>
+</ul> 
+</nav>
+            <main>
+                <div class="container">
+                   <h2 >Registraton</h2>
+                   <p>Paws & Claws</p>
+                   
+                </div>
+                <form class="form">
+                    <div>
+                        <label  class="form-label">Owner Name:</label>
+                        <input type="text" id="txtOwnerName" placeholder="Your Name first and last" class="form-control">
+                    </div>
+                    <div>
+                        <label  class="form-label">Owner Phone:</label>
+                        <input type="phone" id="txtOwnerPhone" placeholder="(999-999-9999)"  class="form-control">
+                    </div>
+                    <div>
+                        <label  class="form-label">Name:     :</label>
+                        <input type="text" id="txtName" placeholder="Pet's Name" class="form-control">
+                    </div>
+                    <div>
+                        <label class="form-label">Type:    :</label>
+                        <input type="text" id="txtName" placeholder="Type of Pet "  class="form-control">
+                    </div>
+                    <div>
+                        <label  class="form-label">Age:      :</label>
+                        
+                        <input type="num" id="txtAge" placeholder="Pet's Age" class="form-control">
+                    </div>
+                    <div>
+                        <label class="form-label">Bread:    :</label>
+                        <input type="text" id="txtBread" placeholder="Bread"  class="form-control">
+
+                    </div>
+                
+                <div>
+                    <lable class="form-label">Service:     :</lable>
+                    <select id="txtService"  class="form-controlM">
+                        <option value="'nails">Nails Cut</option>
+                        <option value="grooming">Grooming</option>
+                        <option value='vaccine'>vaccine</option>
+                        <option value="dewinged">De-Winged</option>
+                        <option value="Check-up">Check-up</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                
+                </div>
+             
+                <div>
+                <input type="text" id="form-comment" placeholder="Add Anything Else We Need To Now?"  class="form-controlM">
+            </div> 
+          </form> 
+             <button onclick="register();" class="form-btn">Register</button>
+            </main>
+        </header>
+        <script src="./scripts/register.js"></script>
+
+    </body>
+</html>
